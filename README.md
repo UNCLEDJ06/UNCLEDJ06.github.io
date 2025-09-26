@@ -37,7 +37,7 @@
         }
         return gk_fileData[filename] || "";
         }
-        </script><!DOCTYPE html>
+        </script>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
