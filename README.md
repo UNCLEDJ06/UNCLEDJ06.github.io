@@ -162,9 +162,9 @@
     </section>
     <section id="join">
         <h2>Join the Apocalypse</h2>
-        <p>Ready to survive? Join our Discord to get started, meet the community, and dive into the roleplay!</p>
-        <a href="https://discord.gg/KcJbUem2Mg" class="discord-btn">Join Discord Server 1</a>
-        <a href="https://discord.gg/QGEATMD36E" class="discord-btn">Join Discord Server 2</a>
+        <p>Ready to survive? Join our Discord communities to get started, meet the community, and dive into the roleplay!</p>
+        <a href="https://discord.gg/KcJbUem2Mg" class="discord-btn">Join Medieval Roleplay Discord</a>
+        <a href="https://discord.gg/QGEATMD36E" class="discord-btn">Join Zombie Apocalypse Discord</a>
     </section>
     <footer>
         <p>&copy; 2025 Z DEVASTATION. All rights reserved.</p>
