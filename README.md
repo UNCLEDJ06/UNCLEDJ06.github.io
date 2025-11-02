@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<Roman Empire>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,51 +6,43 @@
     <title>Roman Empire</title>
     <style>
         body {
+            background-color: black;
+            color: white;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
             text-align: center;
+            margin: 0;
             padding: 20px;
         }
         h1 {
-            color: #8B0000; /* Dark red for Roman theme */
+            color: gold; /* Roman-themed color */
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border: 2px solid gold;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #00bfff; /* Blue for link visibility */
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin: 20px 0;
-            border: 2px solid #8B0000;
-        }
-        a {
-            display: inline-block;
-            background-color: #8B0000;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        a:hover {
-            background-color: #A52A2A;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to the Roman Empire on Roblox</h1>
-        <p>Join our glorious empire and rise through the ranks! Check out our hierarchy below and become part of the legion today.</p>
-        <!-- Replace 'your_hierarchy_image_url_here' with the actual URL of your uploaded image (e.g., upload to Imgur or Roblox assets) -->
-        <img src="your_hierarchy_image_url_here" alt="Roman Empire Hierarchy Chart">
-        <p>Connect with fellow Romans and coordinate conquests on our Discord server.</p>
-        <a href="https://discord.gg/egM8wEZuuX">Join the Roman Discord</a>
+        <img src="YOUR_IMAGE_URL_HERE" alt="Roman Empire Hierarchy Chart">
+        <p>Join our community and become part of the Roman Empire on Roblox. Connect with fellow legionaries, participate in events, and climb the ranks!</p>
+        <p>Click below to join our official Discord server:</p>
+        <a href="https://discord.gg/egM8wEZuuX">Join the Roman Empire Discord</a>
     </div>
 </body>
 </html>
