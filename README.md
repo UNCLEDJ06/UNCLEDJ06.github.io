@@ -1,114 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Roman Empire</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=EB+Garamond&display=swap');
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background: #111;
-      color: #f1c40f;
-      font-family: 'EB Garamond', serif;
-      text-align: center;
-      padding: 20px;
-    }
-
-    header {
-      background: linear-gradient(to bottom, #8B0000, #450000);
-      padding: 30px 20px;
-      border-bottom: 5px solid #f1c40f;
-    }
-
-    h1 {
-      font-family: 'Cinzel', serif;
-      font-size: 3.5rem;
-      color: #f1c40f;
-      text-shadow: 3px 3px 6px #000;
-    }
-
-    .spqr {
-      width: 120px;
-      margin: 15px auto;
-      filter: drop-shadow(0 0 8px #f1c40f);
-    }
-
-    .discord-btn {
-      display: inline-block;
-      margin: 30px auto;
-      padding: 16px 40px;
-      background: #7289da;
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-      border-radius: 50px;
-      font-size: 1.3rem;
-      transition: 0.3s;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    }
-
-    .discord-btn:hover {
-      background: #5a6bc0;
-      transform: scale(1.05);
-    }
-
-    .hierarchy-img {
-      max-width: 90%;
-      margin: 40px auto;
-      border: 8px solid #f1c40f;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(241, 196, 15, 0.4);
-    }
-
-    footer {
-      margin-top: 50px;
-      padding: 20px;
-      color: #aaa;
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 768px) {
-      h1 { font-size: 2.5rem; }
-      .discord-btn { font-size: 1.1rem; padding: 14px 30px; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Empire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #8B0000; /* Dark red for Roman theme */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border: 2px solid #8B0000;
+        }
+        a {
+            display: inline-block;
+            background-color: #8B0000;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        a:hover {
+            background-color: #A52A2A;
+        }
+    </style>
 </head>
 <body>
-
-  <header>
-    <h1>ROMAN EMPIRE</h1>
-    <img src="spqr.png" alt="SPQR" class="spqr" />
-  </header>
-
-  <main>
-    <p style="font-size:1.3rem; margin:20px 0;">
-      Join the legions. Serve the Emperor. Conquer Roblox.
-    </p>
-
-    <a href="https://discord.gg/egM8wEZuuX" target="_blank" class="discord-btn">
-      ⚔️ JOIN DISCORD ⚔️
-    </a>
-
-    <h2 style="margin:30px 0; color:#f1c40f; font-family:'Cinzel',serif;">
-      Command Hierarchy
-    </h2>
-
-    <!-- === YOUR IMAGE GOES HERE === -->
-    <!-- Save your uploaded image as 'hierarchy.png' in the same folder -->
-    <img src="hierarchy.png" alt="Roman Empire Hierarchy" class="hierarchy-img" />
-
-  </main>
-
-  <footer>
-    &copy; 2025 Roman Empire | Roblox Group • All hail the Emperor
-  </footer>
-
+    <div class="container">
+        <h1>Welcome to the Roman Empire on Roblox</h1>
+        <p>Join our glorious empire and rise through the ranks! Check out our hierarchy below and become part of the legion today.</p>
+        <!-- Replace 'your_hierarchy_image_url_here' with the actual URL of your uploaded image (e.g., upload to Imgur or Roblox assets) -->
+        <img src="your_hierarchy_image_url_here" alt="Roman Empire Hierarchy Chart">
+        <p>Connect with fellow Romans and coordinate conquests on our Discord server.</p>
+        <a href="https://discord.gg/egM8wEZuuX">Join the Roman Discord</a>
+    </div>
 </body>
 </html>
